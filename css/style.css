@@ -1,1 +1,30 @@
+nav {
+    width: 100%;
+    background-color: grey;
+}
 
+footer {
+    width: 100%;
+    background-color: grey;
+}
+
+nav {
+    display:table-row;
+    flex: none;
+    gap: 1rem;
+    justify-content: center;
+
+}
+
+section {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 30px;
+}
+
+sub {
+    display: grid;
+    flex: none;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
